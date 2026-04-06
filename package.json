@@ -2,9 +2,9 @@
   "name": "mapend-core",
   "version": "0.0.1",
   "description": "mapend all core shared logic and services",
-  "dependencies": {
-    "expo": "~55.0.11",
-    "expo-constants": "^55.0.11"
+  "peerDependencies": {
+    "expo": "*",
+    "expo-constants": "*"
   },
   "license": "Apache-2.0",
   "main": "src/index.ts",
